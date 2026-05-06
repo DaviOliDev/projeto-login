@@ -35,6 +35,10 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     div#formulario > p {
         font-size: 1em;
